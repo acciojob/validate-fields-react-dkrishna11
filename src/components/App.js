@@ -9,8 +9,9 @@ const App = () => {
 
   function login(){
 
-    if(names==="" || password==="")
+    if(user.names==="" || user.password==="")
       setError("Both username and password are required")
+    else setError("")
   }
   return (
     <div>
